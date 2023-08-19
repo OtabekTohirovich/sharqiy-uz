@@ -61,7 +61,6 @@ export default function DrawerAppBar(props: Props) {
           width: { xs: "100%", sm: "60%", md: "50%", lg: "40%" },
           marginX: "auto",
           bgcolor: "#fff",
-          paddingTop: '2px',
           borderBottomRightRadius: "10px",
           borderBottomLeftRadius: "10px"
         }}
