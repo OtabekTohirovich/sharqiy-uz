@@ -6,7 +6,7 @@ const HomePage = () => {
       sx={{
         width: {  xs: "90%",sm: "420px",md: "470px",lg: "490px", xl: "440px" },
         margin: "auto",
-        height: "85.8vh",
+        height: "85vh",
         overflow: "auto",
       }}
     >

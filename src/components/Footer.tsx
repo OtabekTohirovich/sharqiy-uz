@@ -23,6 +23,7 @@ export default function Footer() {
       sx={{
         width: { xs: "90%", sm: "60%", md: "50%", lg: "37%", xl: "27%" },
         margin: "auto",
+        height: "7.5vh",
         borderTopLeftRadius: "10px",
         borderTopRightRadius: "10px",
       }}
