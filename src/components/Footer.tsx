@@ -21,9 +21,8 @@ export default function Footer() {
   return (
     <BottomNavigation
       sx={{
-        width: { xs: "100%", sm: "60%", md: "50%", lg: "37%", xl: "27%" },
+        width: { xs: "90%", sm: "60%", md: "50%", lg: "37%", xl: "27%" },
         margin: "auto",
-        height: "6.7vh",
         borderTopLeftRadius: "10px",
         borderTopRightRadius: "10px",
       }}
