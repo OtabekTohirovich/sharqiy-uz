@@ -6,13 +6,13 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <>
+    <div style={{position: "relative"}}>
       <Header />
       <Routes>
         <Route path="/" element={<HomePage />} />
       </Routes>
       <Footer/>
-    </>
+    </div>
   );
 }
 

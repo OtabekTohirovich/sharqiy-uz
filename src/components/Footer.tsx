@@ -26,6 +26,9 @@ export default function Footer() {
         height: "7.5vh",
         borderTopLeftRadius: "10px",
         borderTopRightRadius: "10px",
+        position: "absolute",
+        bottom: 0,
+        left: {sm: "20%", md: "25%", lg: "31.5%", xl: "36.5%"},
       }}
       value={value}
       onChange={handleChange}
