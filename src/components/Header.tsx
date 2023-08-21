@@ -22,6 +22,7 @@ import {
   Bolt,
   VolunteerActivism,
 } from "@mui/icons-material";
+import { Link } from "react-router-dom";
 
 interface Props {
   window?: () => Window;
@@ -47,13 +48,14 @@ export default function DrawerAppBar(props: Props) {
 
   const drawer = (
     <Stack onClick={handleDrawerToggle} sx={{ textAlign: "center", height: "100vh", position: 'relative' }}>
+      <Link to={'/'}>
       <img
         src="https://sharqiy.uz/assets/logo.869dfcda.png"
         alt="Logo"
         width={"120px"}
         height={"50px"}
         style={{ objectFit: "cover", margin: " 6px 20px" }}
-      />
+      /></Link>
       <Divider />
       <List>
         {navItems.map((item) => (
@@ -66,7 +68,7 @@ export default function DrawerAppBar(props: Props) {
         ))}
         
       </List>
-      <Typography sx={{position: 'absolute', bottom: 0, left: "15px", fontSize: '12px', fontWeight: "bold"}}>
+      <Typography sx={{position: 'absolute', bottom: "15px", left: "15px", fontSize: '12px', fontWeight: "bold"}}>
       <span style={{color:"#ff0e0d"}}>SHARQIY</span>.<span style={{color: "#6ae46a"}}>UZ</span> huquqlar himoyalangan
       </Typography>
     </Stack>

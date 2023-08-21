@@ -8,6 +8,7 @@ import {
   PhoneForwarded,
   ShopTwo,
 } from "@mui/icons-material";
+import { useNavigate } from "react-router-dom";
 
 export default function Footer() {
   const [value, setValue] = React.useState("recents");
@@ -17,6 +18,7 @@ export default function Footer() {
     console.log(event);
     
   };
+  const navigate =useNavigate()
 
   return (
     <BottomNavigation
@@ -33,7 +35,7 @@ export default function Footer() {
       value={value}
       onChange={handleChange}
     >
-      <BottomNavigationAction label="Asosiy" value="recents" icon={<Home />} />
+      <BottomNavigationAction onClick={()=> navigate("/")} label="Asosiy" value="recents" icon={<Home />} />
       <BottomNavigationAction
         label="Vedio"
         value="recentss"
