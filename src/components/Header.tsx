@@ -76,7 +76,7 @@ export default function DrawerAppBar(props: Props) {
     window !== undefined ? () => window().document.body : undefined;
 
   return (
-    <Box sx={{ display: "flex", height: "7.5vh", alignItems: "center" }}>
+    <Box sx={{ display: "flex", height: "7.5vh", alignItems: "center"  }}>
       <CssBaseline />
       <AppBar
         component="nav"

@@ -33,6 +33,18 @@ a {
   display: none;
 }
 
+@media only screen and (max-width: 350px) {
+  .imagecard {
+    height: 150px !important;
+  }
+  .likes {
+    top: -155px !important;
+    right: -5px !important;
+  }
+
+}
+
+
 @media only screen and (max-width: 600px) {
   .css-118p9r0-MuiButtonBase-root-MuiBottomNavigationAction-root {
     padding: 0 !important;
